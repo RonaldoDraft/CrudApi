@@ -6,7 +6,7 @@ import jakarta.validation.constraints.NotNull;
 import java.math.BigDecimal;
 // record e imutavel
 
-public record ProductRecordDto(@NotBlank String name,@NotNull BigDecimal value) {
+public record ProductRecordDto(@NotBlank String name,@NotNull BigDecimal value,@NotBlank String tipe,@NotBlank String moeda) {
 
 
 

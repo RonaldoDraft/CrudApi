@@ -22,6 +22,8 @@ public class ProductModel implements Serializable {
     private UUID idproduct;
     private String name;
     private BigDecimal value;
+    private String moeda;
+    private String tipe;
 
 
 }
